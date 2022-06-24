@@ -8,5 +8,5 @@ from ludwig.api import LudwigModel
 import pandas
 
 df = pandas.read_csv('train.csv')
-model = LudwigModel(config='rotten_tomatoes.yaml')
+model = LudwigModel(config='house_pricing.yaml')
 results = model.train(dataset=df)
