@@ -1,0 +1,43 @@
+input_features:
+    - name: MSZoning
+      type: set
+    - name: Street
+      type: set
+    - name: LotShape
+      type: set
+    - name: Alley
+      type: set
+    - name: LandContour
+      type: set
+    - name: Utilities
+      type: set
+    - name: LotConfig
+      type: set
+    - name: LandSlope
+      type: set
+    - name: Neighborhood
+      type: set
+    - name: Condition1
+      type: set
+    - name: Condition2
+      type: set
+    - name: BldgType
+      type: set
+    - name: HouseStyle
+      type: set
+    - name: OverallQual
+      type: number
+      preprocessing:
+        missing_value_strategy: fill_with_mean
+    - name: OverallCond
+      type: number
+      preprocessing:
+        missing_value_strategy: fill_with_mean
+    - name: YearBuilt
+      type: number
+      preprocessing:
+        missing_value_strategy: fill_with_mean
+        normalization: minmax
+output_features:
+    - name: SalePrice
+      type: number
