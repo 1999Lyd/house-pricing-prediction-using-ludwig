@@ -1,1 +1,1 @@
-# house-pricing-prediction-using-ludwig
+# house-pricing-prediction-automl
