@@ -2,6 +2,8 @@
 ## introduction
 ### task
 - implement a house pricing prediction task using two automl library
+### dataset
+- The [Ames Housing dataset](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) was compiled by Dean De Cock for use in data science education. It's an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. 
 ### automl
 - Automated machine learning, also referred to as automated ML or AutoML, is the process of automating the time-consuming, iterative tasks of machine learning model development. It allows data scientists, analysts, and developers to build ML models with high scale, efficiency, and productivity all while sustaining model quality. 
 ### ludwig
