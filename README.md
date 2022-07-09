@@ -13,3 +13,5 @@
 ``` python ludwig_automl.py```
 - flaml:
 ``` python flaml_automl.py```
+## training result
+![3febf45bd66f72d80a41bda013247a1](https://user-images.githubusercontent.com/87921304/178113045-e767e719-3891-4daa-8fee-41321c3e29fd.png)
